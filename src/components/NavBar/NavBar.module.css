@@ -1,0 +1,11 @@
+.navBar {
+    background-color: black;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.logo { 
+    margin-bottom: 0;
+    width: 200px;
+}
