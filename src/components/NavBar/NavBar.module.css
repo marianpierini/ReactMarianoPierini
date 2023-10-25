@@ -1,11 +1,35 @@
 .navBar {
-    background-color: black;
+    background-image: linear-gradient(to #000, #292B2E);
     display: flex;
     align-items: baseline;
     justify-content: space-around;
+    border-bottom: solid 5px ;
+    border-color:  #FEC107;
 }
+
 
 .logo { 
     margin-bottom: 0;
     width: 200px;
+}
+
+.boton {background-color: black ;
+    color: white;
+    font-size: larger;
+    border-radius: 5px;
+    padding: 10px;
+    transition: .5s;
+    text-align: center;
+    border: solid;
+    border-color:#FEC107 ;
+    margin: 10px;
+}
+
+.botonera {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+    
 }

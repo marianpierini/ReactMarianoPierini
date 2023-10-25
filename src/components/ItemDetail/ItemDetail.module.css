@@ -1,0 +1,38 @@
+.centrar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.imagen {
+    width: 400px;
+    height: 400px;
+    border: solid;
+    border-color: #FEC107;
+    
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+    border: solid;
+    border-color:  #FEC107 ;
+    margin: 20px;
+    background-image: linear-gradient(to bottom, black, rgb(160, 160, 160), black );
+    border-radius: 10px;
+    padding: 30px;
+    color: white;
+    box-shadow: 5px 5px 5px rgb(209, 204, 204)
+}
+
+.boton {background-color: black ;
+    color: white;
+    border-color:#FEC107 ; 
+    font-size: larger;
+    border-radius: 5px;
+    padding: 10px;
+    transition: .5s;
+    text-align: center;
+}

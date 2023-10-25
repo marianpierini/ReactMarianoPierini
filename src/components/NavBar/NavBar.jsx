@@ -1,7 +1,7 @@
 import classes from "./NavBar.module.css"
 import logo from "./assets/logo.jpg"
-import Button from "../Button/Button"
 import CartWidget from "../CartWidget/CartWidget"
+import { NavLink,Link } from "react-router-dom"
 
 const NavBar = () => {
     return (
@@ -9,18 +9,23 @@ const NavBar = () => {
 
         <nav className={classes.navBar}>
             <div>
-                <img className= {classes.logo} src= {logo} alt="" />
+                <Link to= "/">
+                 <img className= {classes.logo} src= {logo} alt="" />
+                </Link>
+               
+               
             </div>
-            <div>
-            <Button  label="Inicio"/>
+            <div className={classes.botonera}>
+                
+            <NavLink to="/" className={classes.boton}>Inicio</NavLink> 
             
-            <Button label= "Camisetas"/> 
+            <NavLink to={`/categoria/Camisetas`} className={classes.boton}>Camisetas</NavLink> 
 
-            <Button label= "Shorts"/> 
+            <NavLink to={`/categoria/Shorts`} className={classes.boton}>Shorts</NavLink>  
 
-            <Button label= "Nosotros"/> 
+            <NavLink to={`/categoria/Entrenamiento`} className={classes.boton}>Entrenamiento</NavLink>  
 
-            <Button label= "Contacto"/>
+            <NavLink to={`/categoria/Contacto`}className={classes.boton}>Contacto</NavLink> 
             </div>
             <div>
             <CartWidget/>   
