@@ -1,8 +1,10 @@
 .fondo {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    justify-content: center;
+    gap: 15px;
     padding: 20px;
     margin: 20px;
     color: black;
-    justify-content: center;
+    
 }

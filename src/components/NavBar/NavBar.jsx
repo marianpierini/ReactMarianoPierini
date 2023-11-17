@@ -25,7 +25,7 @@ const NavBar = () => {
 
             <NavLink to={`/categoria/Entrenamiento`} className={classes.boton}>Entrenamiento</NavLink>  
 
-            <NavLink to={`/categoria/Contacto`}className={classes.boton}>Contacto</NavLink> 
+            <NavLink to={`/Contacto`}className={classes.boton}>Contacto</NavLink> 
             </div>
             <div>
             <CartWidget/>   

@@ -1,0 +1,20 @@
+.itemCart {display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    padding: 5px;
+    color: white;
+    background-color:#646b71;
+    box-shadow: 5px 5px 3px rgb(144, 139, 139)
+}
+
+.boton {background-color: black ;
+    color: white;
+    border: solid;
+    border-color:#FEC107 ; 
+    font-size: larger;
+    border-radius: 5px;
+    padding: 10px;
+    transition: .5s;
+    text-align: center;
+}

@@ -1,6 +1,6 @@
 import classes from "./Item.module.css"
 import { Link } from "react-router-dom"
-import ItemCount from "../ItemCount/ItemCount"
+
 
 const Item = ({id,nombre, precio,stock,img, categoria }) => {
     return (

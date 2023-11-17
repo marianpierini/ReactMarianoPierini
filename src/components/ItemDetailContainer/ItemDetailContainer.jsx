@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { getProductosById } from "../../asyncMock";
 import ItemDetail from "../ItemDetail/ItemDetail";
 import { useParams } from "react-router-dom";
+import { getProductosById } from "../../services/firestore/productos";
 
 const ItemDetailContainer = () => {
     const [productos, setProductos] = useState(null)
@@ -9,13 +9,16 @@ const ItemDetailContainer = () => {
     const {itemId} = useParams()
 
     useEffect (() => {
-        getProductosById(itemId)
+        getProductosById (itemId)
         .then (response => {
             setProductos(response)
         })
         .catch (error => {
-            console.error (error)
+            console.log(error)
         })
+        
+
+       
     },[itemId])
 
     return (

@@ -1,7 +1,7 @@
 .navBar {
     background-image: linear-gradient(to #000, #292B2E);
     display: flex;
-    align-items: baseline;
+    align-items: flex-end;
     justify-content: space-around;
     border-bottom: solid 5px ;
     border-color:  #FEC107;
@@ -9,8 +9,9 @@
 
 
 .logo { 
-    margin-bottom: 0;
+    margin-bottom: 20px;
     width: 200px;
+
 }
 
 .boton {background-color: black ;
