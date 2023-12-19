@@ -14,3 +14,17 @@ npm install
 npm run dev
 ```
 ![video prueba app] (./docs/pruebaApp.gif)
+
+## Variables de Entorno
+
+VITE_apiKey=AIzaSyCtN3H6SiWfvso8xqpchwJvMITtEozoZ4g
+
+VITE_authDomain=tienda-deportiva-mdq.firebaseapp.com
+
+VITE_projectId=tienda-deportiva-mdq
+
+VITE_storageBucket=tienda-deportiva-mdq.appspot.com
+
+VITE_messagingSenderId=1078126679480
+
+VITE_appId=1:1078126679480:web:33e36d57054f813d172b4d
